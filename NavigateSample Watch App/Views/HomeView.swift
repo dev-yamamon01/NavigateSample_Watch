@@ -20,8 +20,8 @@ struct HomeView: View {
     var body: some View {
         VStack {
             Text("ユーザーID: \(viewModel.uid)")
-            Button("More画面へ") {
-                appState.path.append(PushNavigation.more)
+            NavigationLink(value: PushNavigation.more) {//注意：ここをdestinationにすると navigationPathとの整合性が取れなくなる
+                Text("More画面へ")
             }
         }
     }
