@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23D31A152E38F83B005A7849 /* NavigateSample Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 23D31A142E38F83B005A7849 /* NavigateSample Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D31A162E38F83B005A7849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D31A082E38F83B005A7849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D31A132E38F83B005A7849;
+			remoteInfo = "NavigateSample Watch App";
+		};
+		23D31A242E38F83C005A7849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D31A082E38F83B005A7849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D31A132E38F83B005A7849;
+			remoteInfo = "NavigateSample Watch App";
+		};
+		23D31A2E2E38F83C005A7849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D31A082E38F83B005A7849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D31A132E38F83B005A7849;
+			remoteInfo = "NavigateSample Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23D31A3A2E38F83C005A7849 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				23D31A152E38F83B005A7849 /* NavigateSample Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23D31A0E2E38F83B005A7849 /* NavigateSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigateSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D31A142E38F83B005A7849 /* NavigateSample Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavigateSample Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D31A232E38F83C005A7849 /* NavigateSample Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NavigateSample Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D31A2D2E38F83C005A7849 /* NavigateSample Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NavigateSample Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		23D31A182E38F83B005A7849 /* NavigateSample Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NavigateSample Watch App";
+			sourceTree = "<group>";
+		};
+		23D31A262E38F83C005A7849 /* NavigateSample Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NavigateSample Watch AppTests";
+			sourceTree = "<group>";
+		};
+		23D31A302E38F83C005A7849 /* NavigateSample Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NavigateSample Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D31A112E38F83B005A7849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A202E38F83C005A7849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A2A2E38F83C005A7849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D31A072E38F83B005A7849 = {
+			isa = PBXGroup;
+			children = (
+				23D31A182E38F83B005A7849 /* NavigateSample Watch App */,
+				23D31A262E38F83C005A7849 /* NavigateSample Watch AppTests */,
+				23D31A302E38F83C005A7849 /* NavigateSample Watch AppUITests */,
+				23D31A0F2E38F83B005A7849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23D31A0F2E38F83B005A7849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D31A0E2E38F83B005A7849 /* NavigateSample.app */,
+				23D31A142E38F83B005A7849 /* NavigateSample Watch App.app */,
+				23D31A232E38F83C005A7849 /* NavigateSample Watch AppTests.xctest */,
+				23D31A2D2E38F83C005A7849 /* NavigateSample Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D31A0D2E38F83B005A7849 /* NavigateSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D31A3B2E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample" */;
+			buildPhases = (
+				23D31A0C2E38F83B005A7849 /* Resources */,
+				23D31A3A2E38F83C005A7849 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D31A172E38F83B005A7849 /* PBXTargetDependency */,
+			);
+			name = NavigateSample;
+			packageProductDependencies = (
+			);
+			productName = NavigateSample;
+			productReference = 23D31A0E2E38F83B005A7849 /* NavigateSample.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		23D31A132E38F83B005A7849 /* NavigateSample Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D31A372E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample Watch App" */;
+			buildPhases = (
+				23D31A102E38F83B005A7849 /* Sources */,
+				23D31A112E38F83B005A7849 /* Frameworks */,
+				23D31A122E38F83B005A7849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				23D31A182E38F83B005A7849 /* NavigateSample Watch App */,
+			);
+			name = "NavigateSample Watch App";
+			packageProductDependencies = (
+			);
+			productName = "NavigateSample Watch App";
+			productReference = 23D31A142E38F83B005A7849 /* NavigateSample Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D31A222E38F83C005A7849 /* NavigateSample Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D31A3E2E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample Watch AppTests" */;
+			buildPhases = (
+				23D31A1F2E38F83C005A7849 /* Sources */,
+				23D31A202E38F83C005A7849 /* Frameworks */,
+				23D31A212E38F83C005A7849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D31A252E38F83C005A7849 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23D31A262E38F83C005A7849 /* NavigateSample Watch AppTests */,
+			);
+			name = "NavigateSample Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "NavigateSample Watch AppTests";
+			productReference = 23D31A232E38F83C005A7849 /* NavigateSample Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23D31A2C2E38F83C005A7849 /* NavigateSample Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D31A412E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample Watch AppUITests" */;
+			buildPhases = (
+				23D31A292E38F83C005A7849 /* Sources */,
+				23D31A2A2E38F83C005A7849 /* Frameworks */,
+				23D31A2B2E38F83C005A7849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D31A2F2E38F83C005A7849 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23D31A302E38F83C005A7849 /* NavigateSample Watch AppUITests */,
+			);
+			name = "NavigateSample Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "NavigateSample Watch AppUITests";
+			productReference = 23D31A2D2E38F83C005A7849 /* NavigateSample Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D31A082E38F83B005A7849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					23D31A0D2E38F83B005A7849 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					23D31A132E38F83B005A7849 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					23D31A222E38F83C005A7849 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 23D31A132E38F83B005A7849;
+					};
+					23D31A2C2E38F83C005A7849 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 23D31A132E38F83B005A7849;
+					};
+				};
+			};
+			buildConfigurationList = 23D31A0B2E38F83B005A7849 /* Build configuration list for PBXProject "NavigateSample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23D31A072E38F83B005A7849;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23D31A0F2E38F83B005A7849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D31A0D2E38F83B005A7849 /* NavigateSample */,
+				23D31A132E38F83B005A7849 /* NavigateSample Watch App */,
+				23D31A222E38F83C005A7849 /* NavigateSample Watch AppTests */,
+				23D31A2C2E38F83C005A7849 /* NavigateSample Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D31A0C2E38F83B005A7849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A122E38F83B005A7849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A212E38F83C005A7849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A2B2E38F83C005A7849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D31A102E38F83B005A7849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A1F2E38F83C005A7849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D31A292E38F83C005A7849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D31A172E38F83B005A7849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D31A132E38F83B005A7849 /* NavigateSample Watch App */;
+			targetProxy = 23D31A162E38F83B005A7849 /* PBXContainerItemProxy */;
+		};
+		23D31A252E38F83C005A7849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D31A132E38F83B005A7849 /* NavigateSample Watch App */;
+			targetProxy = 23D31A242E38F83C005A7849 /* PBXContainerItemProxy */;
+		};
+		23D31A2F2E38F83C005A7849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D31A132E38F83B005A7849 /* NavigateSample Watch App */;
+			targetProxy = 23D31A2E2E38F83C005A7849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23D31A352E38F83C005A7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23D31A362E38F83C005A7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		23D31A382E38F83C005A7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NavigateSample;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.NavigateSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		23D31A392E38F83C005A7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NavigateSample;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.NavigateSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		23D31A3C2E38F83C005A7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				INFOPLIST_KEY_CFBundleDisplayName = NavigateSample;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.NavigateSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23D31A3D2E38F83C005A7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				INFOPLIST_KEY_CFBundleDisplayName = NavigateSample;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.NavigateSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23D31A3F2E38F83C005A7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.NavigateSample-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigateSample Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavigateSample Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		23D31A402E38F83C005A7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.NavigateSample-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigateSample Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavigateSample Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		23D31A422E38F83C005A7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.NavigateSample-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NavigateSample Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		23D31A432E38F83C005A7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVQ8RXHYSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.NavigateSample-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NavigateSample Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D31A0B2E38F83B005A7849 /* Build configuration list for PBXProject "NavigateSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D31A352E38F83C005A7849 /* Debug */,
+				23D31A362E38F83C005A7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D31A372E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D31A382E38F83C005A7849 /* Debug */,
+				23D31A392E38F83C005A7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D31A3B2E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D31A3C2E38F83C005A7849 /* Debug */,
+				23D31A3D2E38F83C005A7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D31A3E2E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D31A3F2E38F83C005A7849 /* Debug */,
+				23D31A402E38F83C005A7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D31A412E38F83C005A7849 /* Build configuration list for PBXNativeTarget "NavigateSample Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D31A422E38F83C005A7849 /* Debug */,
+				23D31A432E38F83C005A7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D31A082E38F83B005A7849 /* Project object */;
+}
